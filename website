@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luwanda Business Consulting - Your Partner in Growth</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght=500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Luwanda Business Consulting</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Empowering Your Business Vision in Angola</h2>
+            <p>Expert consulting for business model auditing, iteration, canvassing, design, and execution in Luanda.</p>
+            <a href="#contact" class="btn">Get a Free Consultation</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h3>Our Services</h3>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h4>Business Model Auditing</h4>
+                    <p>Thorough analysis of your current business model to identify strengths, weaknesses, and opportunities for improvement.</p>
+                </div>
+                <div class="service-item">
+                    <h4>Business Model Iteration</h4>
+                    <p>Develop and refine your business model to adapt to market changes and optimize for sustainable growth.</p>
+                </div>
+                <div class="service-item">
+                    <h4>Business Model Canvassing</h4>
+                    <p>Explore new market opportunities and target audiences through strategic canvassing and validation.</p>
+                </div>
+                <div class="service-item">
+                    <h4>Business Model Design</h4>
+                    <p>Craft innovative and robust business models tailored to your unique goals and market landscape.</p>
+                </div>
+                <div class="service-item">
+                    <h4>Business Model Execution</h4>
+                    <p>Translate your strategic plans into actionable steps and ensure successful implementation for tangible results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h3>About Us</h3>
+            <p>Luwanda Business Consulting is a leading consulting firm based in Luanda, Angola, dedicated to helping businesses thrive in a dynamic market. Our team of experienced professionals provides tailored solutions to unlock your company's full potential.</p>
+            <p>We are committed to delivering measurable results and fostering long-term partnerships with our clients, driving innovation and sustainable growth across various industries.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h3>Get in Touch</h3>
+            <p>Ready to transform your business? Contact us today for a free consultation.</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Luwanda Business Consulting. All rights reserved.</p>
+            <p>Luanda, Angola</p>
+        </div>
+    </footer>
+</body>
+</html>
